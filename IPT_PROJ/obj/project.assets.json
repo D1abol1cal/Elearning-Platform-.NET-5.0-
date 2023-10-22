@@ -6147,11 +6147,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\syedn\\OneDrive\\Desktop\\Sem 7\\IPT\\Project\\Elearning-Platform-.NET-5.0-\\IPT_PROJ\\IPT_PROJ.csproj",
+      "projectUniqueName": "C:\\Users\\syedn\\OneDrive\\Desktop\\Sem 7\\IPT\\Elearning-Platform-.NET-5.0-\\IPT_PROJ\\IPT_PROJ.csproj",
       "projectName": "IPT_PROJ",
-      "projectPath": "C:\\Users\\syedn\\OneDrive\\Desktop\\Sem 7\\IPT\\Project\\Elearning-Platform-.NET-5.0-\\IPT_PROJ\\IPT_PROJ.csproj",
+      "projectPath": "C:\\Users\\syedn\\OneDrive\\Desktop\\Sem 7\\IPT\\Elearning-Platform-.NET-5.0-\\IPT_PROJ\\IPT_PROJ.csproj",
       "packagesPath": "C:\\Users\\syedn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\syedn\\OneDrive\\Desktop\\Sem 7\\IPT\\Project\\Elearning-Platform-.NET-5.0-\\IPT_PROJ\\obj\\",
+      "outputPath": "C:\\Users\\syedn\\OneDrive\\Desktop\\Sem 7\\IPT\\Elearning-Platform-.NET-5.0-\\IPT_PROJ\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

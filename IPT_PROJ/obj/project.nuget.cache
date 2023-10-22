@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HOzte9PzXYd3ugc50UzFk3URXlSbD4w2IDxxuzhOJgVtBEULn5tH7SzBWXpOvr1BIfD52z005StepBsU4ol/yw==",
+  "dgSpecHash": "m6VXRPWdlOCsP3553b1ERHP7yV+bACGmNQIzuHRhzgZBSsLz2N0Lmj/4XQDj6k0aMtNHcf5knjUghZWxcMpW1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\syedn\\OneDrive\\Desktop\\Sem 7\\IPT\\Project\\Elearning-Platform-.NET-5.0-\\IPT_PROJ\\IPT_PROJ.csproj",
+  "projectFilePath": "C:\\Users\\syedn\\OneDrive\\Desktop\\Sem 7\\IPT\\Elearning-Platform-.NET-5.0-\\IPT_PROJ\\IPT_PROJ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\syedn\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\syedn\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.17\\microsoft.aspnetcore.cryptography.internal.5.0.17.nupkg.sha512",
