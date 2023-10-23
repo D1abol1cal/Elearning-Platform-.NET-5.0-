@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace IPT_PROJ.Interfaces
 {
-    public class IPrimaryProperties
+    public interface IPrimaryProperties
     {
         int Id { get; set; }
         string Title { get; set; }

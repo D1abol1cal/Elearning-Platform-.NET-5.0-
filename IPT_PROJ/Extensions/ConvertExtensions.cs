@@ -14,9 +14,12 @@ namespace IPT_PROJ.Extensions
             return (from item in collection
                     select new SelectListItem
                     {
-                        Text = item.
+                        Text = item.Title,
+                        Value = item.Id.ToString(),
+                        Selected = (item.Id == selectedValue)
+
                     }
-                );
+                ).ToList();
 
         }
     }

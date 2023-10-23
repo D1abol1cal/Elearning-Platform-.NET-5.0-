@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using IPT_PROJ.Data;
 using IPT_PROJ.Entities;
+using IPT_PROJ.Extensions;
 
 namespace IPT_PROJ.Areas.Admin.Controllers
 {
@@ -34,6 +35,7 @@ namespace IPT_PROJ.Areas.Admin.Controllers
                                                  MediaTypeId = catItem.MediaTypeId,
                                                  CategoryId = categoryId
                                              }).ToListAsync();
+            ViewBag.CategoryId = categoryId;
 
             return View(list);
         }
@@ -57,9 +59,15 @@ namespace IPT_PROJ.Areas.Admin.Controllers
         }
 
         // GET: Admin/CategoryItem/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create(int categoryId)
         {
-            return View();
+            List<MediaType> mediatypes = await _context.MediaType.ToListAsync();
+            CategoryItem categoryItem = new CategoryItem
+            {
+                CategoryId = categoryId,
+                MediaTypes = mediatypes.ConvertToSelect(0)
+            };
+            return View(categoryItem);
         }
 
         // POST: Admin/CategoryItem/Create
@@ -73,7 +81,7 @@ namespace IPT_PROJ.Areas.Admin.Controllers
             {
                 _context.Add(categoryItem);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index),new { categoryId = categoryItem.CategoryId });
             }
             return View(categoryItem);
         }
